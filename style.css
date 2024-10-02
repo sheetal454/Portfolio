@@ -1,6 +1,10 @@
 html {
     scroll-behavior: smooth;
 }
+html, body {
+    overflow-x: hidden;
+}
+
 
 * {
 font-family: 'Times New Roman', Times, serif;
@@ -35,7 +39,7 @@ font-size: 22px;
 }
 
 .menu-navbar-nav {
-gap: 118px;
+gap: 105px;
 }
 
 .header_wrapper {
@@ -171,10 +175,21 @@ box-shadow: 0px 0px 8px rgba(52, 152, 219, 0.5);
 .figure>img{
     max-width: 90px; 
 }
+
 }
 
+@media (max-width: 1399px){
+    .card{
+        width: 92%;
+        margin-left: 28px;
+    }
+    
+}
+
+
+
 /* For mobile devices */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 .col-md-2, .col-md-10 {
 width: 100%;
 }
